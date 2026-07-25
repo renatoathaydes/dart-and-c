@@ -1,0 +1,20 @@
+name: dart_and_c
+description: Sample project where Dart includes a C library that works on Linux, Windows and MacOS.
+version: 0.0.1
+repository: https://github.com/renatoathaydes/dart_and_c
+publish_to: none
+
+environment:
+  sdk: ^3.11.1
+
+dependencies:
+  ffi: ^2.2.0
+  path: ^1.9.1
+
+dev_dependencies:
+  dartle: ^1.0.0
+  lints: ^6.0.0
+  test: ^1.25.6
+
+executables:
+  dart_and_c: dart_and_c

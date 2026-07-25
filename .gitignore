@@ -1,0 +1,10 @@
+.idea/
+.dart_tool/
+.dartle_tool/
+build/
+
+pubspec.lock
+
+*.dylib
+*.dll
+*.so
